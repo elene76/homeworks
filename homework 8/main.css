@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+body {
+    font-family: 'dancing script';
+}
+
+header {
+    display: flex;
+    gap: 100px;
+
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    align-items: right;
+    color: black;
+    text-align: left;
+}
+
+.br {
+    width: 50px;
+    height: 50px
+}
+
+.left {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #A53DFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+.left-column {
+    max-width: 550px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.graphs {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.bck-col {
+    background-color: #EDD8FF80;
+    border-radius: 5px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.size {
+    font-size: 20px;
+}
+
+.button2 {
+    background-color: #A53DFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 190px;
+    height: 60px;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.chat {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+footer {
+    padding: 60px 0;
+    background-color: #2B384C;
+    color: white;
+}
+
+footer .container1 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+footer nav ul li a {
+    color: white !important;
+}
