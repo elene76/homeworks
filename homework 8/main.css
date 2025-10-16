@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite:wght@100..400&display=swap');
+
 
 body {
-    font-family: 'dancing script';
+    font-family: 'Dancing script';
 }
+
+
 
 header {
     display: flex;
     gap: 100px;
-
     justify-content: space-between;
     padding: 40px 0;
     align-items: center;
