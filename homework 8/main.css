@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite:wght@100..400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Dancing script';
 }
 
-
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 header {
     display: flex;
@@ -138,4 +146,9 @@ footer .container1 {
 
 footer nav ul li a {
     color: white !important;
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
 }
